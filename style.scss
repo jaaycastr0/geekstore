@@ -9,12 +9,14 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+
+    
 }
 
-$green:#244d4d;
+$green:#0bb8b8;
 $white:#fff;
 $light-color:#779;
-$light-bg: #f6fbf6;
+$light-bg: #0e0b0b;
 $border:.1rem solid $green;
 $box-shadow:0 .5rem 1rem  rgba(0,0,0.1);
 $dark-shadow:0 0 0 100vw rgba(0,0,0, .5);
@@ -63,7 +65,7 @@ section{
         2rem;
 
         span{
-            color: yellow;
+            color: rgb(80, 80, 54);
         }
 
 
@@ -115,7 +117,7 @@ section{
     cursor: pointer;
 
     &:hover{
-        background: #316868;
+        background: #55c3c3;
     }
 }
 
